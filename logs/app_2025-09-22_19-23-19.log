@@ -1,0 +1,20 @@
+2025-09-22 19:23:19 [INFO] Starting backup. FTP host: 127.0.0.1:21, user: Sona, pass: ******
+2025-09-22 19:23:19 [INFO] Opening SQLite database: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_2025-09-22_19-23-19.sqlite
+2025-09-22 19:23:19 [INFO] Creating table 'people' if not exists...
+2025-09-22 19:23:19 [INFO] Table 'people' ready.
+2025-09-22 19:23:19 [INFO] Inserting 100 random rows...
+2025-09-22 19:23:19 [INFO] Inserted 100 rows successfully.
+2025-09-22 19:23:19 [INFO] Current row count: 100
+2025-09-22 19:23:19 [INFO] Total rows after insert: 100
+2025-09-22 19:23:27 [INFO] Performing binary backup to file: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_backup_2025-09-22_19-23-22.sqlite
+2025-09-22 19:23:27 [INFO] Binary backup completed successfully to: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_backup_2025-09-22_19-23-22.sqlite
+2025-09-22 19:23:28 [INFO] Database binary backup created at: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_backup_2025-09-22_19-23-22.sqlite
+2025-09-22 19:23:30 [INFO] FtpUploader initialized for host: 127.0.0.1
+2025-09-22 19:23:35 [INFO] Starting upload to directory: FTP
+2025-09-22 19:23:36 [INFO] Preparing to upload file: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_backup_2025-09-22_19-23-22.sqlite to FTP
+2025-09-22 19:23:36 [INFO] FTP upload attempt 1 to URL: ftp://127.0.0.1:21/FTP/backup.db_backup_2025-09-22_19-23-22.sqlite
+2025-09-22 19:23:36 [INFO] FTP upload succeeded: backup.db_backup_2025-09-22_19-23-22.sqlite
+2025-09-22 19:23:37 [INFO] Upload finished successfully.
+2025-09-22 19:23:39 [INFO] FtpUploader destroyed for host: 127.0.0.1
+2025-09-22 19:23:42 [INFO] Temporary file removed: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_backup_2025-09-22_19-23-22.sqlite
+2025-09-22 19:23:43 [INFO] SQLite database closed: C:\Users\sonab\OneDrive\Documents\Fortra/DB/backup.db_2025-09-22_19-23-19.sqlite
